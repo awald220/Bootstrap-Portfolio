@@ -53,8 +53,25 @@
 }
 
 
+form {
+    margin: 50px 75px 100px 75px;
+    background-color: #ffffff;
+}
 
+.contact {
+    margin: 50px 75px 100px 75px;
+    background-color: #ffffff;
+}
 
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    outline: 0px solid #4aaaa5;
+}
+
+.btn:hover {
+    background-color: #777777;
+}
 
 footer {
     background-color: #777777;
