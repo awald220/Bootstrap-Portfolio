@@ -4,91 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
     <title>Ashley Waldner - Portfolio</title>
 </head>
-<body style="background: url(assets/images/webb.png);">
-    <section class="top">
-       
-        <div class="logo-and-nav">
-            
-            <div class="logo">
-                <p>Ashley Waldner</p>
-            </div>
-            
-            
-            <nav class="nav">
-                <div class="inner-nav">
-                    <div id="item0">
-
-                    </div>
-
-                    <div id="item1">
-                     <a href="index.html"><p>About</p></a>
-                    </div>
-
-                    <div id="item2">
-                     <a href="portfolio.html"><p>Portfolio</p></a>
-                    </div>
-
-                     <div id="item3">
-                     <a href="contact.html"><p>Contact</p></a>
-                    </div>
-                
-                </div>
-            </nav>
-        </div>
-    </section>
-
+<body background="webb.png">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- logo -->
+         <nav class="navbar navbar-light bg-light logo">
+              <a class="navbar-brand" href="#">
+                  <h1>Ashley Waldner</h1>
+              </a>
+         </nav>
+        
+        <!--navigation bar-->
+         <a class="navbar-brand" href="#"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           <div class="navbar-nav">
+             <a class="nav-item nav-link active" href="#"><span class="sr-only">(current)</span></a>
+             <a class="nav-item nav-link" href="index.html"><p>About</p></a>
+             <a class="nav-item nav-link" href="portfolio.html"><p>Portfolio</p></a>
+             <a class="nav-item nav-link" href="contact.html"><p>Contact</p></a>
+             
+             <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+           </div>
+         </div>
+       </nav>
     
-    <section class="pmiddle">
-        <h1 class="heading">Portfolio</h1>
 
-        
-        <div class="border">
-            <p></p>
+
+
+
+       <div class="jumbotron">
+        <h1 class="display-4">Portfolio</h1>
+        <div>        
+            <div class="card" style="width: 18rem;">
+               <div class="gallery1">
+                <img src="assets/images/3454748875_d4ef75f01a_w.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-text box">Hangman</h2>
+                </div>
+
+                <img src="assets/images/cc-2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-text">RPG Game</h2>
+                </div>
+
+                <img src="assets/images/cc-3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-text">Trivia</h2>
+                </div>
+              </div>
+                <div class="gallery2">
+                <img src="assets/images/cc-4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-text">Rudgers Info Widget</h2>
+                </div>
+
+                <img src="assets/images/cc.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-text">Rock Paper Scissors</h2>
+                </div>
+              </div>
+              </div>
+
+
         </div>
 
-        
-
-       
-        <div class="gallery1">
-           <div class="column">
-            <img src="assets/images/3454748875_d4ef75f01a_w.jpg" alt="" height="250" width="300">
-            <h1>Hangman</h1>
-           </div> 
-            
-           <div class="column">
-            <img src="assets/images/cc-2.jpeg" alt="" height="250" width="300">
-            <h1>RPG Game</h1>
-           </div> 
-        </div>
-
-        <div class="gallery2">
-           <div class="column">
-            <img src="assets/images/cc-3.jpeg" alt="" height="250" width="300">
-            <h1>Trivia</h1>
-           </div> 
-
-           <div class="column">
-            <img src="assets/images/cc-4.jpeg" alt="" height="250" width="300">
-            <h1>Rudgers Info Widget</h1>
-           </div> 
-        </div>
-
-        <div class="gallery3">
-           <div class="column">
-            <img src="assets/images/cc.jpeg" alt="" height="250" width="300">
-            <h1>Rock Paper Scissors</h1>
-        </div> 
-           
-        </div>
-    </section>
+      </div>
+    
     
    
-    <!--copywright-->
-    <footer class="footer">
-        <p>copyright</p>
-    </footer>
+    <footer>
+      <p>
+          copyright
+      </p>
+  </footer>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

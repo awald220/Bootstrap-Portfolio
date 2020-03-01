@@ -1,5 +1,7 @@
 
-
+.navbar {
+    background-color: #ffffff;
+}
 
 /*logo*/
 
@@ -71,6 +73,36 @@ form {
 
 .btn:hover {
     background-color: #777777;
+}
+
+.card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    margin: -20px -20px 0px -20px;
+    text-align: center;
+    
+}
+
+.card-body {
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.gallery1 {
+    display: inline-block;
+}
+
+.gallery2 {
+    flex: 1;
 }
 
 footer {
