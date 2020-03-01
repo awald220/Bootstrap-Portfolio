@@ -28,9 +28,9 @@
 }
 
 .jumbotron {
-    margin: 50px 75px 100px 75px;
+    margin-top: 50px;
     background-color: #ffffff;
-    
+    max-width: 960px;
 }
 
 .display-4 {
@@ -75,35 +75,41 @@ form {
     background-color: #777777;
 }
 
-.card-text {
+.column {
+    display: inline-block;
+    padding: 20px;
+    overflow: scroll;
+ }
+
+ .column h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
     font-size: 25px;
+    padding-top: 10px;
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 20px;
-    margin: -20px -20px 0px -20px;
+    height: 60px;
+    width: 300px;
     text-align: center;
-    
-}
+    position: relative;
+    bottom: 95px;
+    margin-top: 20px;
+ }
 
-.card-body {
-    height: 50px;
-    margin-bottom: 50px;
-}
+ 
 
-.card {
-    border: 1px solid #dddddd;
-    margin-bottom: 10px;
-    display: inline-block;
-}
+ .gallery1 {
+    display: flex;
+    flex-directi;
+ }
 
-.gallery1 {
-    display: inline-block;
-}
+ .gallery2 {
+    display: flex;
+ }
 
-.gallery2 {
-    flex: 1;
-}
+ .gallery3 {
+    display: flex;
+ }
 
 footer {
     background-color: #777777;
