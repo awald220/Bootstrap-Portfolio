@@ -68,11 +68,12 @@ form {
 .btn {
     background-color: #4aaaa5;
     color: #ffffff;
-    outline: 0px solid #4aaaa5;
+    border: 1px solid #4aaaa5;
 }
 
 .btn:hover {
     background-color: #777777;
+    border: 1px solid #777777;
 }
 
 .column {
@@ -119,4 +120,34 @@ footer {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 40px;
+}
+
+.row1 {
+    display: flex;
+    margin: 20px;
+}
+
+.row2{
+    display: flex;
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+    border: 1px solid #cccccc;
+}
+
+.card h5 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card img {
+    height: 150px;
+}
+
+.card p {
+    height: 100px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
